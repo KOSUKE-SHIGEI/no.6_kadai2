@@ -1,0 +1,37 @@
+
+
+.example{
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  justify-content:center;
+  align-items: flex-start;
+  height: 30px;
+  margin: 100px auto 0px auto;
+  padding: 1px;
+  color: orange;
+}
+
+.example hr{
+  width: 35px;
+  border: 0;
+  border-top: 3px solid orange;
+  margin: 0;
+  padding: 0;
+}
+
+.left{
+  transform: rotate(60deg);
+  transform-origin: 0% 0%;
+}
+
+.right{
+  transform: rotate(-60deg);
+  transform-origin: 100% 0%;
+}
+
+p{
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
